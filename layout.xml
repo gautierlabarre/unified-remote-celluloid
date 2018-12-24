@@ -2,24 +2,24 @@
 <layout>
 	<grid>
     <row>
-      <button icon="playpause" onTap="playpause" />
-      <button icon="select" onTap="stopAndSave" />
-      <button icon="stop" onTap="stop" />
+      <button icon="playpause" onTap="playpause" color="blue" />
+      <button icon="select" onTap="stopAndSave" color="blue" />
+      <button icon="stop" onTap="stop" color="red" />
     </row>
 
-    <row>
+    <row color="blue">
       <button icon="previous" onTap="previous" />
       <button icon="fullscreen" onTap="fullscreen" />
       <button icon="next" onTap="next" />
     </row>
 
-    <row>
+    <row color="blue">
       <button icon="vdown" onTap="volumeDown" />
       <button icon="vmute" onTap="mute" />
       <button icon="vup" onTap="volumeUp" />
     </row>
    
-    <row>
+    <row color="orange">
 	    <button text="-15s" ontap="jumpBack" />
 	    <button text="Sub on/off" ontap="toggleSubtitles" />
 	    <button text="+15s" ontap="jumbForward" />
