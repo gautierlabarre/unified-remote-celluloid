@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<grid>
+    <row>
+      <button icon="playpause" onTap="playpause" />
+      <button icon="select" onTap="stopAndSave" />
+      <button icon="stop" onTap="stop" />
+    </row>
+
+    <row>
+      <button icon="previous" onTap="previous" />
+      <button icon="fullscreen" onTap="fullscreen" />
+      <button icon="next" onTap="next" />
+    </row>
+
+    <row>
+      <button icon="vdown" onTap="volumeDown" />
+      <button icon="vmute" onTap="mute" />
+      <button icon="vup" onTap="volumeUp" />
+    </row>
+   
+    <row>
+	    <button text="-15s" ontap="jumpBack" />
+	    <button text="Sub on/off" ontap="toggleSubtitles" />
+	    <button text="+15s" ontap="jumbForward" />
+  	</row>
+  </grid>
+</layout>
