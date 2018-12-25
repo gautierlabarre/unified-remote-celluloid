@@ -21,7 +21,14 @@
    
     <row lightcolor="#cccccc" darkcolor="#2e3a50">
 	    <button text="-15s" ontap="jumpBack" />
-	    <button image="icon-subtitles.png" ontap="toggleSubtitles" scale="native" />
+      <grid>
+        <row>
+	        <button icon="list" ontap="togglePlaylist" />
+        </row>
+         <row>
+	        <button image="icon-subtitles.png" ontap="toggleSubtitles" scale="native" />
+        </row>
+      </grid>
 	    <button text="+15s" ontap="jumbForward" />
   	</row>
   </grid>

@@ -56,6 +56,10 @@ actions.toggleSubtitles = function ()
 	kb.stroke("V");
 end
 
+actions.togglePlaylist = function ()
+	kb.stroke("F9");
+end
+
 actions.jumbForward = function ()
 	kb.stroke("right");
 end
