@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
 	<grid>
-    <row>
-      <button icon="playpause" onTap="playpause" color="blue" />
-      <button image="icon-savequit.png" onTap="stopAndSave" color="blue" scale="native" />
+    <row lightcolor="#cccccc" darkcolor="#161e2c">
+      <button icon="playpause" onTap="playpause" />
+      <button image="icon-savequit.png" onTap="stopAndSave"   scale="native" />
       <button icon="stop" onTap="stop" color="red" />
     </row>
 
-    <row color="blue">
+    <row lightcolor="#cccccc" darkcolor="#161e2c">
       <button icon="previous" onTap="previous" />
       <button icon="fullscreen" onTap="fullscreen" />
       <button icon="next" onTap="next" />
     </row>
 
-    <row color="blue">
+    <row lightcolor="#cccccc" darkcolor="#161e2c">
       <button icon="vdown" onTap="volumeDown" />
       <button icon="vmute" onTap="mute" />
       <button icon="vup" onTap="volumeUp" />
     </row>
    
-    <row color="orange">
+    <row lightcolor="#cccccc" darkcolor="#2e3a50">
 	    <button text="-15s" ontap="jumpBack" />
 	    <button image="icon-subtitles.png" ontap="toggleSubtitles" scale="native" />
 	    <button text="+15s" ontap="jumbForward" />
