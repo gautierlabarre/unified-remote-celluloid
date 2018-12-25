@@ -14,7 +14,7 @@ With this you can :
 - Show/Hide subtitles
 
 
-## Installation
+## Installation
 
 Once you unzip the folder, open the unified remote server, go on settings, then remotes.
 On this page, you can add locations where unified remote will look for remotes. Add the Path of this project. Save and restart the server.
@@ -25,6 +25,6 @@ Simple remote to handle Gnome MPV shortcuts." on the page "Remotes".
 Then on your phone, go to "Get More" and "Media", then add the remote.
 
 
-## Other
+## Other
 
 Get Gnome MPV on [Gnome MPV website](https://gnome-mpv.github.io)
