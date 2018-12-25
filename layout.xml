@@ -3,7 +3,7 @@
 	<grid>
     <row>
       <button icon="playpause" onTap="playpause" color="blue" />
-      <button icon="select" onTap="stopAndSave" color="blue" />
+      <button image="icon-savequit.png" onTap="stopAndSave" color="blue" scale="native" />
       <button icon="stop" onTap="stop" color="red" />
     </row>
 
@@ -21,7 +21,7 @@
    
     <row color="orange">
 	    <button text="-15s" ontap="jumpBack" />
-	    <button text="Sub on/off" ontap="toggleSubtitles" />
+	    <button image="icon-subtitles.png" ontap="toggleSubtitles" scale="native" />
 	    <button text="+15s" ontap="jumbForward" />
   	</row>
   </grid>
