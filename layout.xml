@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
-	<grid>
+  <grid>
     <row lightcolor="#cccccc" darkcolor="#161e2c">
-      <button icon="playpause" onTap="playpause" />
-      <button image="icon-savequit.png" onTap="stopAndSave"   scale="native" />
       <button icon="stop" onTap="stop" color="red" />
+      <button image="icon-savequit.png" onTap="stopAndSave" scale="native" />
+      <button icon="playpause" onTap="playpause" />
     </row>
 
     <row lightcolor="#cccccc" darkcolor="#161e2c">
@@ -18,18 +18,18 @@
       <button icon="vmute" onTap="mute" />
       <button icon="vup" onTap="volumeUp" />
     </row>
-   
+
     <row lightcolor="#cccccc" darkcolor="#2e3a50">
-	    <button text="-15s" ontap="jumpBack" />
+      <button text="-15s" ontap="jumpBack" />
       <grid>
         <row>
-	        <button icon="list" ontap="togglePlaylist" />
+          <button icon="list" ontap="togglePlaylist" />
         </row>
-         <row>
-	        <button image="icon-subtitles.png" ontap="toggleSubtitles" scale="native" />
+        <row>
+          <button image="icon-subtitles.png" ontap="toggleSubtitles" scale="native" />
         </row>
       </grid>
-	    <button text="+15s" ontap="jumbForward" />
-  	</row>
+      <button text="+15s" ontap="jumbForward" />
+    </row>
   </grid>
 </layout>
