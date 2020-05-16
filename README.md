@@ -31,4 +31,4 @@ Then on your phone, go to "Get More" and "Media", then add the remote.
 
 ## Other
 
-Get Celluloid on [Gnome MPV website](https://celluloid-player.github.io/)
+Get Celluloid on [Celluloid website](https://celluloid-player.github.io/)
